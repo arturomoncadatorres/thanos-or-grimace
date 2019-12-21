@@ -20,7 +20,7 @@
 # <style> body {font-family: "Calibri", cursive, sans-serif;} </style>
 
 # %% [markdown]
-# <img src="../multimedia/gauntlet.PNG" width="75" align="right">
+# <img src="../multimedia/gauntlet.png" width="75" align="right">
 #
 # # Thanos or Grimace?<br>Classifying Purple Fiction Characters
 # ---

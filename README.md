@@ -1,6 +1,6 @@
-<img src="multimedia/gauntlet.PNG" width="75" align="right">
+<img src="./multimedia/gauntlet.png" width="75" align="right">
 
-# Thanos or Grimace?<br>Classyifing Purple Fiction Characters
+# Thanos or Grimace?<br>Classifying Purple Fiction Characters
 Avengers: Infinity War is one of my favorite movies not only from the superhero genre, but of all time. Besides an insane character crossover, it features quite a few scenes with pop culture references. In one of them, Peter Quill (aka Star-Lord) refers to  Thanos as "Grimace"
 
 <img src="multimedia/scene.gif" width="66%" align="center">
