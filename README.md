@@ -11,6 +11,6 @@ For those who don't know, [Grimace is one of McDonaldland's characters](https://
 
 In this project, I created a convolutional-neural-network- (CNN-) based classifier to discriminate images of Thanos and Grimace. I did so under two different approaches: creating a CNN from scratch and using a pre-trained CNN as a base (i.e., transfer learning). The classifiers reached an accuracy of 50 (?) and >98%, respectively. Although I'm sure the models can be improved and analyzed even deeper (specially in the from-scratch case), generating a perfect classifier wasn't the purpose of this repository.
 
-**You can [find the notebook of the project here](https://nbviewer.jupyter.org/github/arturomoncadatorres/thanos-or-grimace/blob/master/notebooks/thanos_or_grimace.ipynb).**
+**You can [find the notebook of the project here](https://nbviewer.jupyter.org/github/arturomoncadatorres/thanos-or-grimace/blob/master/notebooks/thanos_or_grimace.ipynb?flush_cache=true).**
 
 Although this is definitely [not the first time that Thanos has received the Machine Learning/AI treatment](https://hackernoon.com/how-machine-learning-developed-the-face-of-mcus-thanos-82f98ef4f381), I still found working with him and Grimace very fun. If you have any comments or suggestions, feel free to [raise an issue here](https://github.com/arturomoncadatorres/thanos-or-grimace/issues) or [drop me a line in Twitter (@amoncadatorres)](https://twitter.com/amoncadatorres).
