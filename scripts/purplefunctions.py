@@ -15,6 +15,24 @@ import random
 import numpy as np
 import pathlib
 import shutil
+import json
+import codecs
+
+#%%
+def get_classes(path):
+
+    # Make sure path_data is a pathlib.Path.
+    if isinstance(path, str):
+        path = pathlib.Path(path)
+        
+    # Get classes from path defined in directory.
+    classes = list()
+    [classes.append(str(x).split(os.sep)[-1]) for x in path.iterdir() if x.is_dir()]
+    
+    # Exclude directories (classes) that start with underscore.
+    classes = [class_ for class_ in classes if class_[0]!='_']
+    
+    return classes
 
 
 #%%
@@ -30,8 +48,7 @@ def structure_images(path_data, val_prop=0.2, verbose=True):
     path_validation = path_data/'validation'
     
     # Get classes of interest.
-    classes = list()
-    [classes.append(str(x).split(os.sep)[-1]) for x in path_source.iterdir() if x.is_dir()]
+    classes = get_classes(path_source)
     
     # Create directories.
     for path in [path_training, path_validation]:
